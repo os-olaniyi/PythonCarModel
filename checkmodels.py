@@ -1,3 +1,4 @@
+# Import all the methods from the Car model class.
 from CarModel import *
 
 # Read input from user
