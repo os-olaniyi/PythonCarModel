@@ -1,6 +1,6 @@
 def functionality(model_name):
     """ This function return the functionality of each car model. """
-    
+
     if model_name == "Elite":
         functionality = (f"ALLOWABLE VEHICLE CONFIG FOR {model_name.upper()} IS CORRECT.\n\nFUNCTIONALITIES INCLUDE:\n Lane Changing\n Overtaking\n Intersections navigation ")
         print(functionality)
@@ -73,6 +73,7 @@ print(configuration)
 
 #Define function that Check for the configuration using the model name.
 def check_config (car_name, configuration):
+    
     """ This function takes 2 input parameters."""
     if car_name == "Elite":
         elite(name = car_name, configs = configuration)
